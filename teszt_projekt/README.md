@@ -1,3 +1,45 @@
+
+###09.03 - PHP
+
+minden változó $ jellel kezdődik : $valtozo_neve
+a . a konkataláció(összefüzés) jele, mint javában a + 
+a => pedig a . lenne 
+
+superglobális változók post get (bárhonnan elérhetők)
+
+->jelentése 
+
+arrow operator, objektumok 
+
+:: jelentése 
+
+
+Otthonra kell : 
+ - vscode 
+ - git 
+ - xampp (php) ((**Ha otthoni laptopon hozunk létre projektet, akkor a php.ini fájlban a ;-t töröljük az extension=zip sor elől!**))
+ - composer
+
+CRU (create, read , delete)
+
+laravelben nem csak mvc, hanem artisan csomaggal is dolgozhatunk (előre megírt "csomagok")
+
+**###
+
+composer create-project laravel/laravel teszt_projekt
+
+.env beállítás, --> commit
+
+cd teszt_projekt
+
+**php artisan make:model Task -m**
+
+**###
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
